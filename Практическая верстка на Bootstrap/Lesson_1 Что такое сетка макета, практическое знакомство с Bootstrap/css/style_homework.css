@@ -1,0 +1,13 @@
+div.col,div.col-lg-6,div.col-md-6 {
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 6px;
+	background-color: green
+
+}
+
+
+#header{
+	text-align: center;
+}
+
