@@ -1,0 +1,12 @@
+p{
+	background: yellow; /*Եթե ես էստեղ գրեյի հետևյալ կերպ՝background: yellow !important,ապա այս հատկությունը կլիներ առաջնային և կկիրառվեր բոլոր էջերի վրա անխտիր, անկախ նրանից դրանցում կան ներմուծված styl-ներ թե ոչ */
+	font-size: 20px;
+}
+
+.one{
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+}

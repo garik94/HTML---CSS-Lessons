@@ -1,0 +1,26 @@
+body{
+	padding: 20px;
+}
+
+h1{
+	font-family: Arial, Helvetica, Verdana;
+}
+
+p{
+	font-size: 1.2em;
+	/*background-color: #011;
+	color: #f34;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	text-decoration: underline;*/
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}

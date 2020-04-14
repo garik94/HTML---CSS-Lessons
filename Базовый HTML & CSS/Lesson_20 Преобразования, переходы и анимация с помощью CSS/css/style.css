@@ -1,0 +1,36 @@
+body{
+	padding: 60px;
+}
+
+.test1{
+	width: 500px;
+	border:1px solid #003;
+	padding: 3px;
+	transform: rotate(20deg) scale(1.3);
+}
+
+.button{
+	background: red;
+	padding: 4px;
+	display: inline-block;
+}
+
+.button:hover{
+	background: red;
+	padding: 4px;
+	transform: scale(1.3);
+	
+}
+
+.button2{
+	background-color: orange;
+	transition-property: background-color;
+
+}
+
+.button2:hover{
+	background-color: blue;
+	transition-delay: 1s;
+	transition-duration: 1s;
+}
+

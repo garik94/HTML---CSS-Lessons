@@ -1,0 +1,29 @@
+Атрибуты тега <img>
+Նախքան թվարկելը նշեմ, որ բացի src և alt ատրիբուտներից մնացածը խորհուրդ չի տրվում օգտագործել, քանի որ նույն արդյունքը հետագայում ստանլու ենք
+CSS style-երի միջոցով։
+
+1․ align - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/align
+2․ alt - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/alt
+3. border - Նկարի ռամկայի հաստությունն է - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/border
+4․ height - Նկարի բարձրությունն է - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/height
+5․ hspace - Նկարից հորիզոնական հեռավորություն մինչ շրջապատող կոնտենտ - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/hspace
+6․ ismap - Ասում է բրաուզերին, որ նկարը հանդիսանում է սերվերային քարտ-նկար - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/ismap
+7․ longdesc - ինֆորմացիան հետևյալ հղումով- http://htmlbook.ru/html/img/longdesc
+8. lowsrc - ցածր որակով նկարի հասցեն է - - ինֆորմացիան հետևյալ հղումով- http://htmlbook.ru/html/img/lowsrc
+9․ vspace - Նկարից ուղղահայաց հեռավորություն մինչ շրջապատող կոնտենտ - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/vspace
+10․ width - նկարի լայնությունն է - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/width
+11․ usemap - հղում <map> տեգին, որը պարունակում է կլիենտային քարտ-նկարի կորդինատները - ինֆորմացիան հետևյալ հղումով - http://htmlbook.ru/html/img/usemap
+
+Атрибуты тега <a>
+
+1. accesskey - Հղման ակտիվացումը կոճակների կոմբինացիայի միջոցով - http://htmlbook.ru/html/a/accesskey
+2․ download - Առաջարկում է ներբեռնել հղմամբ ցուցադրված ֆայլը - http://htmlbook.ru/html/a/download
+3․ hreflang - Ցույց է տալիս այն կայքի լեզուն, որի տանում է հղուը - http://htmlbook.ru/html/a/hreflang
+4․ name - Устанавливает имя якоря внутри документа - http://htmlbook.ru/html/a/name - Այժմ դրա փոխարեն հիմնականում օգտագործվում է id ատրիբուտը
+5․ rel - այս ատրիբուտը սահմանում է հարաբերությունները գործող դոկումենտի և այն դոկումենտի, որը դրված է հղումում - http://htmlbook.ru/html/a/rel
+6. rev - Атрибут rev является обратным к rel и описывает, чем является текущий документ по отношению к странице, на которую ведет ссылка - http://htmlbook.ru/html/a/rev
+7. shape - Задает форму активной области ссылки для изображений - http://htmlbook.ru/html/a/shape
+8. tabindex - Определяет последовательность перехода между ссылками при нажатии на кнопку Tab - http://htmlbook.ru/html/a/tabindex
+9. target - Սրա միջոցով բրաուզերին ասում ենք, թե որտեղ բացի հղումը - http://htmlbook.ru/html/a/target
+10․ title - Добавляет всплывающую подсказку к тексту ссылки - http://htmlbook.ru/html/a/title
+11. type - Указывает MIME-тип документа, на который ведёт ссылка - http://htmlbook.ru/html/a/type

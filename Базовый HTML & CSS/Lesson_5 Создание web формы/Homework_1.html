@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Страница входа</title>
+	<meta charset="utf-8">
+	  <style>
+   textarea { resize: none; }
+  </style>
+</head>
+<body>
+	<section>
+	<br><br><br><br>
+	<hr>
+	<form action="/" method="GET">
+		Войти <input type="password" name="PersonPass" maxlength="12" placeholder="password">
+			  <input type="text" name="loginPerson" maxlength="30" placeholder="login"><br><br>
+			  Ваш пол<br>
+			  <input id="m" type="radio" name="nuynAnun" value="Муж."><label for="m">Муж.</label><br>
+			  <label><input type="radio" name="nuynAnun" value="Жен."> Жен.</label><br><br>
+			  Ваша професия<br>
+			  <label><input type="checkbox" name="theSame" value="Стр">Строитель</label><br>
+			  <input id="voe" type="checkbox" name="theSame" value="Вой"><label for="voe">Военный</label><br>
+			  <input id="fer" type="checkbox" name="theSame" value="Фер"><label for="fer">Фермер</label><br><br>
+			  Напишите несколько слов о себе <br>
+			  <textarea rows="5" cols="40" placeholder="Please input something about yourself" required=""></textarea>
+			  <select name="test_1" size="3" multiple="">
+			  	<option>txt</option>
+			  	<option selected="">HTML</option>
+			  	<option value="JavaScript">JS</option>
+			  	<option>PHP</option>
+			  </select><br><br>
+			  <input type="reset" name="res" value="Сбросить">
+			  <input type="submit" name="sub" value="Отправить">
+
+		
+	</form>
+	</section>
+
+</body>
+</html>

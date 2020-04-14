@@ -1,0 +1,14 @@
+body{
+	padding: 20px;
+	/*background-image: url(../images/fon.jpg); GIF,JPG,GIF,SVG*/
+	/*background-repeat: repeat (По умолчанию);
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: bottom left;
+	background-attachment: fixed;Հետևի նկարը մնումա տեղում
+	background-origin: border-box; ասում է բրաուզերին թե որտեղից պետք է սկսվի նկարը տվյալ բլոկում(բորդերից, պադդինգից և այլն)*/
+	/*background-size: 300px 400px;կամ 300px auto*/
+	/*Ամբողջ վերոնշյալի փոխարեն կարող ենք գրել 1 տողով հետևյալ կերպ)*/
+	background: url(../images/fon.jpg) center center / 40%  no-repeat fixed #ff5;
+}

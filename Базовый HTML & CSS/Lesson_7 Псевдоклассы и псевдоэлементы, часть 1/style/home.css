@@ -1,0 +1,28 @@
+#c4:link{
+	color: red;
+	background: blue
+}
+
+a:visited {
+	color: green
+}
+
+h1:first-letter{
+	font-size: 24px;
+	color: blue;
+}
+
+.p1:first-line{
+	font-weight: bold;
+	color: yellow;
+} 
+
+#p2:before{
+	content: "###";
+	color: red;
+}
+
+#p2:after{
+	content: "###";
+	size: 50px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Работа стаблицами</title>
+	<link href="css/minimal-table.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+	<h1>Строем нашу первую таблицу</h1>
+	<table>Наша таблица
+		<colgroup>
+			<col style="background: blue">
+			<col style="background: yellow" span="2">
+		</colgroup>
+		<tr>
+			<th>Первая ячейка</th>
+			 <th>Вторая ячейка</th>
+			  <th>Третья ячейка</th>
+		</tr>
+		<tr>
+			<td colspan="2">Первая ячейка</td>
+			 <!--<td>Вторая ячейка</td>-->
+			  <td rowspan="2">Третья ячейка</td>
+		</tr>
+		<tr>
+			<td>Первая ячейка</td>
+			 <td>Вторая ячейка</td>
+			  <!--<td>Третья ячейка</td>-->
+		</tr>
+		
+	</table>
+
+</body>
+</html>

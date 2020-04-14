@@ -1,0 +1,34 @@
+img[title="kamera"]{
+	width: 300px;
+	background: red;
+	border: groove;
+}
+
+img[title="zhuk"]{
+	width: 200px;
+	border: outset;
+}
+
+img[title="cssimage"]{
+	width: 150px;
+	border: dashed;
+
+}
+
+a[href="https://www.facebook.com/"]:visited{
+	color:green;
+}
+
+a[href="https://www.facebook.com/"]:hover{
+	color:red;
+}
+
+a[href="https://www.yandex.com/"]:hover{
+	color:yellow;
+	font-size: 25px;
+}
+
+#p1::selection{
+	color: blue;
+	background: red;
+}

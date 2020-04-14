@@ -1,0 +1,46 @@
+a:hover{
+	color: red;
+	font-size: 25px;
+}
+
+a:active{
+	font-size: 40px;
+	color: yellow;
+}
+p:hover{
+	color: red;
+	font-size: 25px;
+}
+a:link{
+	color:green;
+}
+a:visited{
+	color: #D2691E;
+}
+p:first-letter{
+	font-size: 30px;
+	color: red;
+}
+
+p:first-line{
+	font-weight: bold;
+	color: blue;
+}
+
+input:focus{
+	background: #fffccc;
+	border-style: solid;
+	border-color: red;
+}
+
+.xxx:before{
+	content: "Bari or axper!!!"
+}
+.xxx:after{
+	content: "HAJOXUTZUN!!!"
+}
+
+p::selection{
+	color: #fff;
+	background: #000000;
+}

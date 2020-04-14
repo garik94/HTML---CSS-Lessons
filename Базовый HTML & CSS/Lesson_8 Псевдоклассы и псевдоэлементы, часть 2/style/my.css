@@ -1,0 +1,11 @@
+img[title = "картинка"]{
+	width: 100px;
+}
+
+a[href="https://yandex.ua"]{
+	color:red;
+}
+
+a[href="https://nnm.com"]{
+	color: black;
+}
