@@ -19,7 +19,7 @@ header div.menu{
 	height: 134px;
     background: rgba(0,0,0,0.4);
     background-size: auto;
-    max-width: 2000px;
+    
     margin: 0 auto;
 }
 
@@ -104,14 +104,14 @@ article.services{
 	padding-top: 80px;
 	padding-bottom: 80px;
 	border-bottom: 1px solid #e7e7e7;
-	max-width: 1362px;
+	
 	margin: 0 auto;
 
 }
 
 .section{
 	padding: 0 15px;
-	max-width: 1362px;
+	
 	margin:0px auto;
 }
 
@@ -235,32 +235,53 @@ h2{
 	border: 1px solid #fff;
 }
 
-.test_4_1{
+/**************************************
+************Section boy*************
+***************************************/
+section.boy{
+	height: 638px;
+}
+#nkar{
 	background-image: url(../Images/nkar.jpg);
+	background-position: right;
 	background-repeat: no-repeat;
-	background-position: top left;
-	max-width: 1000px;
-	height: 669px;
+	height: 638px;
+
 }
-
-
-.test_4{
-	padding-left: 115px !important;
-    padding-right: 335px !important;
-}
-
-.test_4 h1{
+section.boy div h3{
 	font-size: 72px;
-	font-weight: bold;
-	margin-top: 131px;
-	margin-bottom: 90px;
+	color: #000;
+	max-width: 600px;
+	margin: 131px 0px 90px 75px;
 }
-
-.test_4 p{
-	font-size: 15px;
-	margin: 0px;
-	padding: 0px;
-	line-height: 24px;
+section.boy div p{
+	color: #878787;
+	font-size: 16px;
+	max-width: 600px;
+	margin-left: 75px;
+}
+section.boy div a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 44px;
+	margin-top: 50px;
+	margin-left: 75px;
+}
+section.boy div a:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+/**************************************
+************Section next-boy*************
+***************************************/
 }
 
 #row_5 a,#row_5 a:hover{
@@ -268,14 +289,14 @@ h2{
 }
 
 .team div.section{
-	max-width: 2000px;
+	
 	padding: 0px;
 	
 	height: 669px;
 }
 
 .team div.section_2{
-	max-width: 2000px;
+	
 	padding: 0px;
 	background: rgba(0,0,0,1);
     background-size: auto;
@@ -283,39 +304,18 @@ h2{
 	margin: 0 auto;
 }
 
-.test_5_1{
-	background-image: url(../Images/Mock-1.jpg);
-	background-repeat: no-repeat;
-	width: 500px;
-	background-position: center center;
-	padding: 0px
+.next_boy{
+	    display: flex;
+    justify-content: center;
 }
 
-.test_5_2{
-	background-image: url(../Images/Mock-2.jpg);
-	background-repeat: no-repeat;
-	width: 500px;
-	background-position: center center;
-	padding: 0px
+.next_boy a img{
+	display: inline-block; 
+	max-width: 100%;
 }
 
-.test_5_3{
-	background-image: url(../Images/Mock-3.jpg);
-	background-repeat: no-repeat;
-	width: 500px;
-	background-position: center center;
-	padding: 0px
-
 }
-
-.test_5_4{
-	background-image: url(../Images/Mock-4.jpg);
-	background-repeat: no-repeat;
-	width: 500px;
-	background-position: center center;
-	padding: 0px
-}
-.team div.section_2 a{
+.next_boy a {
 	display: inline-block;
 	height: 434px;
 	width: 503px;
@@ -328,7 +328,7 @@ h2{
 
 }
 
-.team div.section_2 a:hover{
+.next_boy a :hover{
 	display: inline-block;
 	height: 434px;
 	width: 503px;
@@ -343,7 +343,7 @@ h2{
 
 .section_3{
 	padding: 0 15px;
-    max-width: 1362px;
+    
     margin: 0px auto;
 }
 
@@ -411,7 +411,7 @@ h2{
 }
 
 footer{
-	max-width: 2000px;
+	
 	padding: 0px;
 	background-image: url(../Images/footer.jpg);
     background-size: auto;
@@ -423,7 +423,7 @@ footer{
 
 .section_4{
 	padding: 0 15px;
-    max-width: 1362px;
+    
     margin: 0px auto;
     max-height: 724px
 }
@@ -468,7 +468,7 @@ footer{
 
 .section_5{
 	background-color: #000;
-	max-width: 1362px;
+	
 	padding: 0 15px;
     margin: 0px auto;
     height: 135px;
@@ -577,6 +577,12 @@ form button:hover{
 	max-width: 100%;
 	height: auto;
 }
+
+.container-fluid{
+	padding: 0px;
+}
+
+
 
 /**************************************
 ************Adaptiv********************
