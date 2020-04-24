@@ -1,0 +1,97 @@
+body{
+	background: #ccc;
+}
+
+
+.container{
+	max-width: 1080px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+	flex: 1;
+	background: lightblue;
+	border: 1px solid black;
+	border-radius: 0.4em;
+}
+
+.site-nav{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display:flex;
+	list-style-type: none;
+	background: green;
+	padding: 1em;
+	border: 1px solid black;
+	border-radius: 0.4em;
+	flex-direction: row;
+}
+
+.site-nav li{
+	background: orange;
+	border: 1px solid black;
+	border-radius: 0.2em;
+}
+
+.site-nav >li+li{
+	margin-left: 1.3em
+}
+
+.site-nav >.nav-right{
+	margin-left: auto;
+}
+
+.site-nav li a{
+	text-decoration: none;
+	padding: 0.5em;
+	display: block;
+	text-align: center;
+}
+
+main.flex{
+	display: flex;
+	background: yellow;
+	border: 1px solid black;
+	border-radius: 0.4em;
+	flex: 100%;
+	min-height: 500px;
+}
+
+
+aside.column-sidebar{
+	order: 0;
+	flex: 1;
+	border: 1px solid black;
+	border-radius: 0.4em;
+	display: flex;
+	flex-direction: column;
+}
+
+section.tile{
+	order: 1;
+	flex: 3;
+	border: 1px solid black;
+	border-radius: 0.4em;
+	display: flex;
+	flex-direction: column;
+}
+
+aside.column-sidebar-1{
+	order: 2;
+	flex: 1;
+	border: 1px solid black;
+	border-radius: 0.4em;
+}
+
+footer{
+	flex:100%;
+	background: #f5c7f8
+}
+
+.login-form>p{
+	display: flex;
+	justify-content: space-between;
+}
+

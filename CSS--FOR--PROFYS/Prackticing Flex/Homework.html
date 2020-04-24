@@ -1,0 +1,69 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" type="text/css" href="home.css">
+  <meta charset="utf-8">
+  <title>Flexbox-верстка</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Flexbox-верстка</h1>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="/">Главная</a></li>
+          <li><a href="/">Услуги</a></li>
+          <li><a href="/">Цена</a></li>
+          <li class="nav-right">
+            <a href="/about">Контакты</a>
+          </li>
+        </ul>
+    </nav>
+    </header>
+
+    <main class="flex">
+      <section class="column-main tile">
+        <h2>Принципы flexbox-верстки</h2>
+        <p>Flexbox-разметка начинается со знакомого свойства display. В результате применения свойства display: flex элемент превращается во flex-контейнер, а его
+        потомки — во flex-элементы. </p>
+        <img src="../../Практическая верстка на Bootstrap/Lesson_2 Building Ausera Layout with Bootstrap_4/Images/Mock-2.jpg">
+      </section>
+      
+      <aside class="column-sidebar-1">
+        <div class="tile">
+          <form class="login-form">
+            <h3>Логин</h3>
+            <p>
+              <label for="username">Имя</label>
+              <input id="username" type="text"
+                name="username"/>
+            </p>
+            <p>
+              <label for="password">Пароль</label>
+              <input id="password" type="password"
+                name="password"/>
+            </p>
+            <button type="submit">Войти</button>
+          </form>
+        </div>
+      </aside>
+
+      <aside class="column-sidebar">
+        
+        <div class="tile centered">
+          <small>Стоимость</small>
+          <div class="cost">
+            <span class="cost-currency">$</span>
+            <span class="cost-dollars">20</span>
+            <span class="cost-cents">.00</span>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>jglkajgsl3gjsdjjnkgsdjklgsdkjlgfkjdn<br>dvjdhpsdpijpsdoj<br>djbvdjkvjdlvjnjn</p>
+    </footer>
+
+  </div>
+</body>
