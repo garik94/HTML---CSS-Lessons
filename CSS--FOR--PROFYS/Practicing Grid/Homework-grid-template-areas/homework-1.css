@@ -1,0 +1,65 @@
+body{
+	background: #ccc;
+}
+
+.container{
+	display: grid;
+	margin: 0 auto;
+	max-width: 1080px;
+	grid-template-areas: "header header header"
+						 "nav nav nav"
+						 "aside1 article aside2"
+						 "footer footer footer";
+
+	grid-template-columns: 2fr 5fr 1fr;
+	grid-template-rows: 2fr 2fr 10fr 2fr;
+
+}
+
+
+header, nav, article, .as1, .as2, footer{
+	border: 1px solid red;
+}
+
+div .as1 >a{
+	display: block;
+	text-align: center;
+}
+
+header{
+	grid-area: header;
+	background: lightblue;
+	text-align: center;
+}
+
+nav{
+	grid-area: nav;
+	background: red;
+	text-align: center;
+}
+
+.as1{
+	display: grid;
+	grid-area: aside1;
+	background: yellow;
+	
+}
+
+.as2{
+	grid-area: aside2;
+	background: yellow;
+	text-align: center;
+}
+
+article{
+	grid-area: article;
+	background: green;
+	text-align: center;
+}
+
+footer{
+	grid-area: footer;
+	background: black;
+	color: #fff;
+	text-align: center;
+}
