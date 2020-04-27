@@ -1,0 +1,45 @@
+body{
+	background: #709709;
+	font-family: Helvetica, Arial, sans-serif
+}
+
+header{
+	padding: 1.2em 0;
+	background: #ffdd98;
+}
+
+button{
+	padding: .2em .5em;
+	border: 1px solid #8d8d8d;
+	background: #fff;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+
+nav{
+	width: 76%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.modal{
+	display: none;
+}
+
+.modal-body{
+	position: fixed;
+	top: 4em;
+	bottom: 5em;
+	left: 20%;
+	right: 20%;
+	background: #fff;
+	overflow: auto;
+	padding: 3em;
+}
+
+.modal-close{
+	cursor: pointer;
+	position:absolute; 
+	top: 1em;
+	right: 20px;
+}

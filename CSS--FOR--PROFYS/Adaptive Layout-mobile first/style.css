@@ -1,0 +1,53 @@
+:root{
+	box-sizing: border-box;
+	font-size: calc(1vw + 0.6em)
+}
+
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/*************************************
+***************Links******************
+*************************************/
+
+a:link{
+	color: #1476bb;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #1414bb;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	color: #b45514;
+}
+
+/*************************************
+***************Header******************
+*************************************/
+
+header{
+	padding: 0.5em 1em;
+	background: #fff
+}
+
+.title h1{
+	color: #333;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin: 0.25em 0;
+}
+
+.slogan{
+	color: #888;
+	font-size: .8em;
+	margin: 0;
+}
