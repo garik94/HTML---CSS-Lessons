@@ -3,6 +3,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
 	<title>адаптив</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -56,5 +57,15 @@
 	      </section>
 	    </div>
   </main>
+  <script type="text/javascript">
+	(function() {
+		var button = document.getElementById('toggle-menu');
+		button.addEventListener('click', function(event) { 
+			event.preventDefault();
+			var menu = document.getElementById('main-menu');
+			menu.classList.toggle('is-open');
+		});
+	})();
+</script>
 
 </body>
